@@ -3,16 +3,25 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UnitedShoppingHomeComponent } from './united-shopping-home/united-shopping-home.component';
-
+import { HeaderComponent } from './common/header/header';
+import { SideMenuComponent } from './common/header/side-menu/side-menu.component';
+import {SidebarModule} from 'primeng/sidebar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ButtonModule } from 'primeng/button';
+import { FooterComponent } from './common/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    UnitedShoppingHomeComponent
+    HeaderComponent,
+    SideMenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SidebarModule,
+    BrowserAnimationsModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

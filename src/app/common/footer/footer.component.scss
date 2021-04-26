@@ -1,0 +1,27 @@
+.footer{
+    // background-image: linear-gradient(180deg,rgba(0,102,179,1),rgba(0,71,133,1));
+    background-color: #182434;
+    padding: 15px 0px;
+}
+.first{
+    table{
+            padding-left: 5em;
+            border-right: 1px solid #878787;
+    }
+    .heading{
+        td{
+            font: 14px Arial;
+            color: #878787;
+            padding: 0em 10em 0em 2em;
+            line-height: 2;
+        }
+    }
+    .data{
+        td{
+            font: 12px Arial;
+            color: white;
+            padding: 0px 140px 0px 27px;
+            line-height: 2;
+        }
+    }
+}

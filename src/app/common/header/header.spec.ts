@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
-import { UnitedShoppingHomeComponent } from './united-shopping-home.component';
+import { HeaderComponent } from './header';
 
 describe('UnitedShoppingHomeComponent', () => {
-  let component: UnitedShoppingHomeComponent;
-  let fixture: ComponentFixture<UnitedShoppingHomeComponent>;
+  let component: HeaderComponent;
+  let fixture: ComponentFixture<HeaderComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ UnitedShoppingHomeComponent ]
+      declarations: [ HeaderComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UnitedShoppingHomeComponent);
+    fixture = TestBed.createComponent(HeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
