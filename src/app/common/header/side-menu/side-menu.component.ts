@@ -13,6 +13,6 @@ export class SideMenuComponent implements OnInit {
   ngOnInit(): void {
   }
   toggleSideMenu(){
-    this.display=!this.display;
+    this.visibleSidebar1=!this.visibleSidebar1;
   }
 }

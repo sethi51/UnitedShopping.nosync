@@ -1,7 +1,10 @@
-<span (click)='toggleSideMenu()' class="slider fa fa-bars">
-</span>
-<p-sidebar [(visible)]="display" [autoZIndex]="false" [baseZIndex]="1000">
-    <h1 style="font-weight:normal">Left Sidebar</h1>
-    <p-button type="button" (click)="visibleSidebar1 = false" label="Save" styleClass="p-button-success"></p-button>
-    <p-button type="button" (click)="visibleSidebar1 = false" label="Cancel" styleClass="p-button-secondary"></p-button>
-</p-sidebar>
+<div class="d-flex">
+    <span (click)='toggleSideMenu()' class="slider fa fa-bars">
+    </span>
+    <p-sidebar [(visible)]="visibleSidebar1" >
+        <h1 style="font-weight:normal">Left Sidebar</h1>
+        <p-button type="button" (click)="visibleSidebar1 = false" label="Save" styleClass="p-button-success"></p-button>
+        <p-button type="button" (click)="visibleSidebar1 = false" label="Cancel" styleClass="p-button-secondary"></p-button>
+    </p-sidebar>
+    <label (click)='toggleSideMenu()' class="slider-label pl-1">All</label>
+</div>
