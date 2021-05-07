@@ -1,17 +1,47 @@
-.header-container{
+.header{
     width: 100%;
+    background-image: linear-gradient(180deg, rgba(0,189,242,1),rgba(0,179,240,1),rgba(0,102,179,1),rgba(0,71,133,1));
 }
 .banner{
     height: 40px;
-    background-image: linear-gradient(180deg, rgba(0,189,242,1),rgba(0,179,240,1),rgba(0,102,179,1),rgba(0,71,133,1));
+    
 }
 .banner-label{
     font: 20px Arial;
     color: white;
     padding-left: 20px;
     text-align: left;
+    font-weight: bold;
 }
 .sub-header{
     background-image: linear-gradient(180deg, rgba(0,189,242,1),rgba(0,179,240,1));
     height: 25px;
+}
+.input-box{
+    left: 40%;
+    top: 3px;
+    position: absolute;
+    .search-banner{
+        height: 30px;
+        width: 25em;
+    }
+    .search-icon-header{
+        cursor: pointer;
+        color: darkgrey;
+        position: relative;
+        top: 0px;
+        left: -22px;
+    }
+}
+.login-button{
+    position: absolute;
+    top: 3px;
+    left: 92%;
+    button{
+        height: 30px !important;
+        background-color: transparent;
+        color: white;
+        font: 14px Arial;
+        width: 103px;
+    }
 }

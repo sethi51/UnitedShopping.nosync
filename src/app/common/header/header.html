@@ -1,8 +1,15 @@
 <div class="header">
-    <table class="header-container" cellspacing="0">
+    <table class="header-container" >
         <tr class="banner">
             <td class="banner-label">
                 <span class="banner-element">United Group</span>
+            </td>
+            <td class="input-box">
+                <input type="text" placeholder="Search Product" class="search-banner" pInputText />
+                <span><i class="fa fa-search search-icon-header"></i></span>
+            </td>
+            <td class="login-button">
+                <button #loginButton pButton pRipple type="button" (click)='login()' label="{{text}}" class="p-button-raised"></button>
             </td>
         </tr>
     </table>
