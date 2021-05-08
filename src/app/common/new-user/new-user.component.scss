@@ -1,0 +1,28 @@
+.credential-container{
+    .p-inputtext{
+        border: none;
+        border-bottom: 1px solid darkgrey;
+        width: 300px;
+        border-radius: 0px;
+        font-size: 14px !important;
+        box-shadow: none;
+    }
+    input{
+        margin: 0px 0px 10px 0px;
+    }
+    .p-button{
+        width: 300px;
+        background-color: transparent;
+        color: #196AB3;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .forgot-password{
+        // padding-left: 186px;
+        // padding-top: 10px;
+    }
+    .label{
+        padding-left: 138px;
+    }
+}

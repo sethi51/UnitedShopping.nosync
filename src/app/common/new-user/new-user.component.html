@@ -1,0 +1,13 @@
+<div class="new-user-container d-flex">
+    <div class="new-user-image">
+        <img src="assets/images/add_user.png" width="300px">
+    </div>
+    <div class="credential-container">
+        <input type="text" placeholder="Enter Email/Mobile Number" pInputText /><br>
+        <p-password [(ngModel)]="password" styleClass="ui-ui-password" inputStyleClass="ui-password" [feedback]="false" placeholder="Enter Password" [toggleMask]="true"></p-password><br>
+        <!-- <input type="password" [toggleMask]="true" placeholder="Enter Password" pInputText /><br> -->
+        <button pButton pRipple type="button" label="Login" class="p-button-raised"></button><br>
+        <label class="label">OR</label><br>
+        <button pButton pRipple type="button" label="Create New Account" class="p-button-raised"></button>
+    </div>
+</div>

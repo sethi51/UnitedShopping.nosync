@@ -5,6 +5,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtonModule } from 'primeng/button';
 import {SidebarModule} from 'primeng/sidebar';
 import {InputTextModule} from 'primeng/inputtext';
+import {DialogModule} from 'primeng/dialog';
+import {DynamicDialogModule} from 'primeng/dynamicdialog';
+import {PasswordModule} from 'primeng/password';
+import { FormsModule } from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +18,8 @@ import { SideMenuComponent } from './common/header/side-menu/side-menu.component
 import { FooterComponent } from './common/footer/footer.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { SubHeaderComponent } from './common/header/sub-header/sub-header.component';
+import { LoginComponent } from './common/login/login.component';
+import { NewUserComponent } from './common/new-user/new-user.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +27,9 @@ import { SubHeaderComponent } from './common/header/sub-header/sub-header.compon
     SideMenuComponent,
     FooterComponent,
     HomePageComponent,
-    SubHeaderComponent
+    SubHeaderComponent,
+    LoginComponent,
+    NewUserComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +37,11 @@ import { SubHeaderComponent } from './common/header/sub-header/sub-header.compon
     SidebarModule,
     BrowserAnimationsModule,
     ButtonModule,
-    InputTextModule
+    InputTextModule,
+    DialogModule,
+    DynamicDialogModule,
+    PasswordModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
